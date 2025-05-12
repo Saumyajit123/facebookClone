@@ -3,12 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Register</title>
+    <title>FaceBook Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .Head{
+            text-align: center;
+            color: #0866FF;
+        }
+    </style>
 </head>
 <body>
-    <h1>facebook</h1>
-    <p>ami saumyajit</p>
-    <h2> I am developing fb page</h2>
-    <button>Submit</button>
+    <div class="Head">
+        <h1>facebook</h1>
+    </div>
+    <div class="formContainer">
+        <div class="boxContainer">
+            <h1>Create a new account</h1>
+            <p>It's quick and easy.</p>
+            <table>
+                    <tr>
+                        <td>
+                            <input 
+                                type="text"
+                                name="FN"
+                                placeholder="First name"
+                                maxlength="16"
+                                required
+                                />
+                        </td>
+                        <td>
+                            <input 
+                                type="text"
+                                name="LN"
+                                placeholder="Surname"
+                                maxlength="16"
+                                required
+                            />
+                        </td>
+                    </tr>                   
+                </table>
+                <p class="dob">Date of birth</p>
+                <table>
+                    <tr>
+                        <td>
+                            <select class="day" name="Day">
+                                <option>day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12<option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="month" name="Month">
+                                <option>Month</option>
+                                <option value="Jan">January</option>
+                                <option value="Feb">February</option>
+                                <option value="Mar">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="Aug">August</option>
+                                <option value="Sept">September</option>
+                                <option value="Oct">October</option>
+                                <option value="Nov">November</option>
+                                <option value="Dec">December</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="year" name="Year">
+                                <option>Year</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="Gender">Gender</p>
+                            <input type="radio" name="gender" value="F" required>Female
+                            <input type="radio" name="gender" value="M" required>Male
+                            <input type="radio" name="gender" value="C" required>Custom
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="tel email" 
+                                   name="MobEmail"
+                                   placeholder="Mobile number or email address"
+                                   size="40"
+                                   required
+                                   />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password"
+                            name="Password"
+                            placeholder="New password"
+                            size="40"
+                            required/>
+                        </td>
+                    </tr>
+                </table>
+                <h6 class="Learn">People who use our service may have uploaded your contact information to Facebook. Learn more.<br> clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</h6>
+            <button style="margin: 8px; background-color: green; color: white">Submit
+            </button>
+            <h3 class="already">Already have an account?</h3>
+        </div>
+    </div>
+    
 </body>
 </html>

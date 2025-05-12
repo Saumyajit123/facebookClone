@@ -1,0 +1,48 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxContainer{
+    text-align: center;
+    border: 2px solid black;
+}
+.Form{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dob{
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Gender{
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.day{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.month{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: left;
+}
+.year{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: left;
+}
+.Learn{
+    text-align: left;
+}
+.already{
+    text-align: center;
+    color: blue;
+}

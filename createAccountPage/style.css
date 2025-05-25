@@ -1,3 +1,13 @@
+
+.Head {
+    text-align: center;
+    color: #0866FF;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
 .formContainer{
     display: flex;
     justify-content: center;
